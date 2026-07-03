@@ -1,0 +1,55 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bcf
+*.run.xml
+*.bbl
+*.blg
+*.toc
+
+# Generated CV PDFs (optional - uncomment to ignore generated CVs)
+# cv_en_*.pdf
+# cv_es_*.pdf
+
+# Temporary TeX files
+cv_en_*.tex
+cv_es_*.tex
+
+# Old content files (deprecated - using modular structure now)
+content_en.tex
+content_es.tex
+
+# Personal information - DO NOT COMMIT
+Pablo_Gomez_CV.pdf
+personal/
+ingles-real/
+español-real/
+*.personal.tex
+*.real.tex
+
+# Keep only example data in the repository
+
+# macOS
+.DS_Store
+*~
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*

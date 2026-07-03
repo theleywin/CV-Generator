@@ -1,0 +1,45 @@
+%----------------------------------------------------------------------------------------
+%	COLOR DEFINITIONS
+%----------------------------------------------------------------------------------------
+% This file defines color schemes for the CV
+% Colors are set via \cvcolor command before including this file
+
+\newcommand{\setcolorscheme}[1]{
+  \ifthenelse{\equal{#1}{blue}}{
+    \definecolor{primary}{rgb}{0.1,0.2,0.5}
+    \definecolor{secondary}{rgb}{0.3,0.3,0.3}
+    \definecolor{accent}{rgb}{0.0,0.3,0.6}
+  }{}
+  \ifthenelse{\equal{#1}{red}}{
+    \definecolor{primary}{rgb}{0.6,0.1,0.1}
+    \definecolor{secondary}{rgb}{0.3,0.3,0.3}
+    \definecolor{accent}{rgb}{0.7,0.0,0.0}
+  }{}
+  \ifthenelse{\equal{#1}{green}}{
+    \definecolor{primary}{rgb}{0.1,0.5,0.2}
+    \definecolor{secondary}{rgb}{0.3,0.3,0.3}
+    \definecolor{accent}{rgb}{0.0,0.6,0.3}
+  }{}
+  \ifthenelse{\equal{#1}{purple}}{
+    \definecolor{primary}{rgb}{0.4,0.1,0.5}
+    \definecolor{secondary}{rgb}{0.3,0.3,0.3}
+    \definecolor{accent}{rgb}{0.5,0.0,0.6}
+  }{}
+  \ifthenelse{\equal{#1}{gray}}{
+    \definecolor{primary}{rgb}{0.2,0.2,0.2}
+    \definecolor{secondary}{rgb}{0.4,0.4,0.4}
+    \definecolor{accent}{rgb}{0.3,0.3,0.3}
+  }{}
+  \ifthenelse{\equal{#1}{black}}{
+    \definecolor{primary}{rgb}{0.0,0.0,0.0}
+    \definecolor{secondary}{rgb}{0.3,0.3,0.3}
+    \definecolor{accent}{rgb}{0.1,0.1,0.1}
+  }{}
+}
+
+% Default color scheme if not specified
+\ifdefined\cvcolor
+  \setcolorscheme{\cvcolor}
+\else
+  \setcolorscheme{blue}
+\fi
