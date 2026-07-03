@@ -82,15 +82,6 @@ pdflatex --version
 python3 --version
 ```
 
-## 📝 Personalización
-
-### Modificar Contenido
-
-Edita los archivos de contenido según el idioma:
-
-- **Inglés**: `content_en.tex`
-- **Español**: `content_es.tex`
-
 ### Ajustar Colores
 
 Edita `colors.tex` para modificar los valores RGB de cada esquema de color.
