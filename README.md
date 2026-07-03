@@ -56,9 +56,8 @@ Esto generará 12 PDFs (6 colores × 2 idiomas).
 Pablo_CV/
 ├── generate_cv.py       # Script principal de generación
 ├── colors.tex           # Definiciones de esquemas de color
-├── content_en.tex       # Contenido en inglés
-├── content_es.tex       # Contenido en español
-├── cv.tex               # Plantilla original (mantiene compatibilidad)
+├── ingles               # Contenido en inglés
+├── español              # Contenido en español
 ├── Makefile             # Comandos de automatización
 └── README.md            # Esta documentación
 ```
